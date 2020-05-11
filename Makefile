@@ -12,6 +12,14 @@ test: ## test
 headers: ## update all the .md headers from etc/header.sh
 	@find . -name '*.md' -exec bash etc/headers.sh {} \;
 
+pull: ## download from Git
+	git pull
+
+push: ## upload changes to Git
+	git commit -am "pushing"
+	git pull
+	git status
+
 rq1: ## check RQ1
 	@(cd src; bash RQ1.sh)
 
