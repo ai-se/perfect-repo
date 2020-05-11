@@ -47,7 +47,7 @@ Companies that only build in-house proprietary products may be
 cutting themselves off from the information needed to reason about
 those projects.
 
-Screen snap
+<img align=center src="etc/img/pdf/framework-2.pdf">
 
 ## Links 
   - [Paper](etc/pdf/paper.pdf)
