@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 q='"'
 u='https://github.com/ai-se/perfect-repo'
-r='$u/blob/master'
+r="$u/blob/master"
 
 cat<<EOF> /tmp/heads$$
 <p align=center><b>A perfect repo
