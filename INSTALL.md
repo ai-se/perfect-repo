@@ -3,8 +3,13 @@
 # Installation
 
 ## Requirements
+```
 pip install -r requirements.txt
+```
 
 ## Installing
 
 ## Testing
+```
+pytest
+```
