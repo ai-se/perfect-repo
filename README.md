@@ -1,4 +1,5 @@
 <p align=center><a 
+href="https://github.com/ai-se/perfect-repo/README.md">about</a>  :: <a 
 href="https://github.com/ai-se/perfect-repo">code</a>  :: <a 
 href="LICENSE">license</a>  :: <a 
 href="INSTALL.md">install</a> :: <a
