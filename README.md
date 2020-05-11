@@ -54,8 +54,8 @@ those projects.
 ## Links 
   - [Paper](etc/pdf/paper.pdf)
   - [Data](data/README.md)
-  - RQ1: [doc](doc/RQ1.md) [src](src/RQ1.sh)
-  - RQ2: [doc](doc/RQ2.md) [src](src/RQ2.sh) 
+  - RQ1: [doc](doc/RQ1.md); [src](src/RQ1.sh)
+  - RQ2: [doc](doc/RQ2.md);  [src](src/RQ2.sh) 
   -  ...
   
 ## Configuration <== optional
