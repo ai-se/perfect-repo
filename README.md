@@ -1,4 +1,5 @@
 <p align=center><a 
+href="https://github.com/ai-se/perfect-repo">CODE</a>
 href="LICENSE">License</a> :: <a 
 href="INSTALL.md">Install</a> :: <a
 href="CODE_OF_CONDUCT.md">Contribute</a> :: <a 
