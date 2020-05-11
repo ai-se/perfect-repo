@@ -4,7 +4,9 @@ href="https://github.com/ai-se/perfect-repo">code</a>  :: <a
 href="https://github.com/ai-se/perfect-repo/blob/master/LICENSE">license</a>  :: <a 
 href="https://github.com/ai-se/perfect-repo/blob/master/INSTALL.md">install</a> :: <a
 href="https://github.com/ai-se/perfect-repo/blob/master/CODE_OF_CONDUCT.md">contribute</a> :: <a 
-href="https://github.com/ai-se/perfect-repo/blob/master/CONTACT.md">contact</a> <p align=center> <img 
+href="https://github.com/ai-se/perfect-repo/issues">issues</a>  <a 
+href="https://github.com/ai-se/perfect-repo/blob/master/CONTACT.md">contact</a> <p 
+align=center> <img 
 src="https://img.shields.io/badge/language-python-orange">&nbsp;<img 
 src="https://img.shields.io/badge/purpose-ai,se-blueviolet">&nbsp;<img 
 src="https://img.shields.io/badge/platform-mac,*nux-informational">&nbsp;<img 
@@ -47,7 +49,7 @@ Companies that only build in-house proprietary products may be
 cutting themselves off from the information needed to reason about
 those projects.
 
-<img align=center src="etc/img/pdf/framework-2.pdf">
+<img align=center src="etc/img/framework-2.pdf">
 
 ## Links 
   - [Paper](etc/pdf/paper.pdf)
