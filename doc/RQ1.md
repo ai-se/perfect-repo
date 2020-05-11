@@ -16,4 +16,4 @@ src="https://travis-ci.com/ai-se/perfect-repo.svg?branch=master">
 </p><hr>
 
 
-Src: [../src/RQ1.sh]
+Src: [../src/RQ1.sh](../src/RQ1.sh)
