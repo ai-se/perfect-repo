@@ -15,8 +15,7 @@ src="https://travis-ci.org/timm/lua.svg?branch=master">
 <img src="etc/img/header.png" align=right width=400>
 
 # [Tiltle](etc/pdf/paper.pdf)
-  - has badges for DOI from zenodo link <== can anon repos being anon in zenodo?
-  - has badges from travis for passing
+   
 
 Heintzelman and King argued that meaning in life (MIL) is widely experienced and exists at high levels. In this brief commentary, the current authors examine what they believe are several flaws in their argument: a lack of clarity in defining MIL; the questionable validity of the instruments used to measure MIL throughout Heintzelman and King's article; and an erroneous interpretation of quantitative reports of MIL from surveys and the academic literature
 
