@@ -29,7 +29,7 @@ those projects (as of April 2020). We find that traditional estimation
 algorithms make many mistakes. Algorithms like $k$-nearest neighbors
 (KNN), support vector regression (SVR), random forest (RFT), linear
 regression (LNR), and regression trees (CART) have high error rates
-(usually more than 50\% wrong, sometimes over 130\% wrong, median
+(usually more than 50% wrong, sometimes over 130% wrong, median
 values). But that error rate can be  greatly reduced using the
 DECART hyperparameter optimization. DECART is a differential evolution
 (DE) algorithm that tunes the CART data mining system to the
@@ -39,7 +39,7 @@ To the best of our knowledge, this is the largest study yet conducted,
 using the most recent data, for predicting multiple health indicators
 of open-source projects. Further, due to our use of hyperparameter
 optimization, it may be the most successful. Our predictions have
-less than 10\% error (median value) which is much smaller than the
+less than 10% error (median value) which is much smaller than the
 errors seen in related work.
 
 Our results are a compelling argument for  open-sourced development.
