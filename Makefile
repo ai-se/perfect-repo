@@ -1,12 +1,21 @@
-.PHONY: help
-help:  ## help
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
-	| sort | awk 'BEGIN {FS = ":.*?## "}; \
-	             {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+.PHONY: help install test headers
+
+help: ## help
+	@bash etc/help.sh $(MAKEFILE_LIST)
 
 install: ## install
-		pip install -r requirements.txt
+	pip install -r requirements.txt
 
-.PHONY: test
 test: ## test
-		pytest
+	pytest
+
+headers: ## update all the .md headers from etc/header.sh
+	@find . -name '*.md' -exec bash etc/headers.sh {} \;
+
+rq1: ## check RQ1
+	@(cd src; bash RQ1.sh)
+
+rq2: ## check RQ2
+	@(cd src; bash RQ2.sh)
+
+
