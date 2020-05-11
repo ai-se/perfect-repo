@@ -1,4 +1,4 @@
-<p align=center><a 
+<p align=center><b>A perfect repo</b><br><a 
 href="https://github.com/ai-se/perfect-repo/blob/master/README.md">about</a>  :: <a 
 href="https://github.com/ai-se/perfect-repo">code</a>  :: <a 
 href="https://github.com/ai-se/perfect-repo/blob/master/LICENSE">license</a>  :: <a 
