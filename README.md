@@ -1,9 +1,9 @@
 <p align=center><a 
-href="https://github.com/ai-se/perfect-repo">CODE</a>  :: <a 
-href="LICENSE">License</a>  :: <a 
-href="INSTALL.md">Install</a> :: <a
-href="CODE_OF_CONDUCT.md">Contribute</a> :: <a 
-href="CONTACT.md">Contact</a> <p align=center> <img 
+href="https://github.com/ai-se/perfect-repo">code</a>  :: <a 
+href="LICENSE">license</a>  :: <a 
+href="INSTALL.md">install</a> :: <a
+href="CODE_OF_CONDUCT.md">contribute</a> :: <a 
+href="CONTACT.md">contact</a> <p align=center> <img 
 src="https://img.shields.io/badge/language-python-orange">&nbsp;<img 
 src="https://img.shields.io/badge/purpose-ai,se-blueviolet">&nbsp;<img 
 src="https://img.shields.io/badge/platform-mac,*nux-informational">&nbsp;<img 
