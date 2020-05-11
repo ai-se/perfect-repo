@@ -12,9 +12,9 @@ src="https://img.shields.io/badge/license-mit-informational">&nbsp;<img
 src="https://travis-ci.org/timm/lua.svg?branch=master"> 
 </p><hr>
 
-<img src="etc/img/header.png" align=right width=400>
 
 # [Predicting Project Health for Open Source Project](doc/paper.pdf)
+<img src="etc/img/header.png" align=right width=400>
 
 
 Software developed on  public platforms are a source of data that
