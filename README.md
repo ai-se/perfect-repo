@@ -14,10 +14,38 @@ src="https://travis-ci.org/timm/lua.svg?branch=master">
 
 <img src="etc/img/header.png" align=right width=400>
 
-# [Tiltle](etc/pdf/paper.pdf)
-   
+# [Predicting Project Health for Open Source Project](doc/paper.pdf)
 
-Heintzelman and King argued that meaning in life (MIL) is widely experienced and exists at high levels. In this brief commentary, the current authors examine what they believe are several flaws in their argument: a lack of clarity in defining MIL; the questionable validity of the instruments used to measure MIL throughout Heintzelman and King's article; and an erroneous interpretation of quantitative reports of MIL from surveys and the academic literature
+
+Software developed on  public platforms are a source of data that
+can be used to make predictions about those projects. While the
+activity of a single developer may be random and hard to predict,
+when large groups of developers work together on software projects,
+the resulting behavior can be predicted with good accuracy.
+
+To demonstrate this, we use 78,455 months of data from 1,628 GitHub
+projects to make various predictions about the current status of
+those projects (as of April 2020). We find that traditional estimation
+algorithms make many mistakes. Algorithms like $k$-nearest neighbors
+(KNN), support vector regression (SVR), random forest (RFT), linear
+regression (LNR), and regression trees (CART) have high error rates
+(usually more than 50\% wrong, sometimes over 130\% wrong, median
+values). But that error rate can be  greatly reduced using the
+DECART hyperparameter optimization. DECART is a differential evolution
+(DE) algorithm that tunes the CART data mining system to the
+particular details of a specific project.
+
+To the best of our knowledge, this is the largest study yet conducted,
+using the most recent data, for predicting multiple health indicators
+of open-source projects. Further, due to our use of hyperparameter
+optimization, it may be the most successful. Our predictions have
+less than 10\% error (median value) which is much smaller than the
+errors seen in related work.
+
+Our results are a compelling argument for  open-sourced development.
+Companies that only build in-house proprietary products may be
+cutting themselves off from the information needed to reason about
+those projects.
 
 Screen snap
 
