@@ -1,5 +1,5 @@
 <p align=center><a 
-href="LICENSE.md">License</a> :: <a 
+href="LICENSE">License</a> :: <a 
 href="INSTALL.md">Install</a> :: <a
 href="CODE_OF_CONDUCT.md">Contribute</a> :: <a 
 href="CONTACT.md">Contact</a>   </p><hr>
