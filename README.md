@@ -5,7 +5,7 @@ href="INSTALL.md">Install</a> :: <a
 href="CODE_OF_CONDUCT.md">Contribute</a> :: <a 
 href="CONTACT.md">Contact</a> <p align=center><a 
 <img 
-src="https://img.shields.io/badge/language-python-orange">&nbsp;<img 
+src="https://img.shields.io/badge/language-python">&nbsp;<img 
 src="https://img.shields.io/badge/purpose-ai,se-blueviolet">&nbsp;<img 
 src="https://img.shields.io/badge/platform-mac,*nux-informational">&nbsp;<img 
 src="https://img.shields.io/badge/license-mit-informational">&nbsp;<img 
