@@ -54,7 +54,7 @@ PAN=                               \
   --indented-code-classes=lua,numberLines  \
   --css='https://fonts.googleapis.com/css2?family=Muli&display=swap'                \
   --css='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css' \ 
-  --css='https://raw.githubusercontent.com/sehero/sehero.github.io/master/style.css' 
+  --css='https://raw.githubusercontent.com/sehero/sehero.github.io/master/style.css'
 
 $(SITE)/index.html:  etc/index.md
 	pandoc $< --metadata title="$(notdir $<)" $(PAN) -o $@
