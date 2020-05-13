@@ -30,38 +30,32 @@ push: ## upload changes to Git
 CODE=$(shell ls src/*.lua | gawk '{sub(/^src/,"$(SITE)/src"); sub(/\.lua$$/,".html"); print}')
 MD=$(shell   ls doc/*.md  | gawk '{sub(/^doc/,"$(SITE)/doc"); sub(/\.md$$/, ".html"); print}')
 
-site:  create $(SITE)/index.html #$(CODE) $(MD) over ## build site
+site:  create  #$(CODE) $(MD) over ## build site
 
 create: $(SITE)
 	@mkdir -p $(SITE)/src
 	@mkdir -p $(SITE)/doc
-	@cp -r doc/etc/ $(SITE)
+	@cp -R doc/etc/ $(SITE)
+	@touch $(SITE)/.nojekyll
 
-over:
-	@cd $(SITE); \
-	@git add .nojekyll * */* 
-	@git commit -am updated
-	@git push
+over: $(SITE)/index.html
+	- cd $(SITE); make 
 
-PAN=                               \
-  -s                                \
-  --mathjax                          \
-  --from=markdown                     \
-  --table-of-contents                  \
-  -V numberLines=true                   \
-  --include-after=doc/tail.txt           \
-  --include-before=doc/head.txt           \
-  --indented-code-classes=lua,numberLines  \
-  --css='https://fonts.googleapis.com/css2?family=Muli&display=swap'                \
-  --css='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css' \ 
-  --css='https://raw.githubusercontent.com/sehero/sehero.github.io/master/style.css'
+PAN=                     \
+  -s                      \
+  --mathjax                \
+  --from=markdown           \
+  --table-of-contents        \
+  -V numberLines=true         \
+  --template=doc/default.html5 \
+  --indented-code-classes=lua,numberLines  
 
 $(SITE)/index.html:  etc/index.md
-	pandoc $< --metadata title="$(notdir $<)" $(PAN) -o $@
+	pandoc $< -V path="" --metadata title="$(notdir $<)" $(PAN) -o $@
 
 $(SITE)/src/%.html:  src/*.lua
 	gawk -f etc/2md.awk $< \
-	| pandoc --metadata title="$(notdir $<)" $(PAN) -o $@
+	| pandoc -V path="../" --metadata title="$(notdir $<)" $(PAN) -o $@
 
 $(SITE)/doc/%.html:  doc/*.md
-	pandoc $< --metadata title="$(notdir $<)" $(PAN) -o $@
+	pandoc $< -V path="../" --metadata title="$(notdir $<)" $(PAN) -o $@
