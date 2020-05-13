@@ -17,8 +17,11 @@ align=center> <img
 src="https://img.shields.io/badge/language-python-orange">&nbsp;<img 
 src="https://img.shields.io/badge/purpose-ai,se-blueviolet">&nbsp;<img 
 src="https://img.shields.io/badge/platform-mac,*nux-informational">&nbsp;<img 
-src="https://img.shields.io/badge/license-mit-informational">&nbsp;<img 
-src="https://travis-ci.com/ai-se/perfect-repo.svg?branch=master"> 
+src="https://img.shields.io/badge/license-mit-red">&nbsp;<img 
+src="https://travis-ci.com/ai-se/perfect-repo.svg?branch=master"> <a 
+href="https://zenodo.org/badge/latestdoi/263123880"><img 
+src="https://zenodo.org/badge/263123880.svg" 
+alt="DOI"></a>
 </p><hr>
 EOF
 
